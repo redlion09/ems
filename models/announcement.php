@@ -1,6 +1,7 @@
 <?php
 class Announcement extends AppModel {
 	var $name = 'Announcement';
+        var $displayField ='title';
 	var $validate = array(
 		'title' => array(
 			'notempty' => array(
